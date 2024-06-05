@@ -4,7 +4,7 @@ import joblib
 from matplotlib import pyplot as plt
 
 
-st.set_page_config(page_icon="🤖")
+st.set_page_config(page_icon="🤖",page_title="Linear_reg")
 
 st.title("Simple Linear Regression:")
 st.write("Simple linear regression is a technique that uses a straight line to model the relationship between two continuous variables. It helps us understand how one variable (like year) might influence another (like income), and even predict values for unseen data points.")
