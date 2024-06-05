@@ -10,7 +10,7 @@ st.title("Simple Linear Regression:")
 st.write("Simple linear regression is a technique that uses a straight line to model the relationship between two continuous variables. It helps us understand how one variable (like year) might influence another (like income), and even predict values for unseen data points.")
 
 
-df = pd.read_csv("Linear_reg\\canada_per_capita_income.csv")
+df = pd.read_csv("canada_per_capita_income.csv")
 
 # Display the subheader
 st.subheader("Here we have an example dataset")
