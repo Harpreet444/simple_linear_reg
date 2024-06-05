@@ -45,7 +45,7 @@ with col2:
         st.session_state.show_more = False
         table_container.table(df.head(5))  # Update the table to show fewer rows
 
-model = joblib.load("Linear_reg/model.jolib")
+model = joblib.load("model.jolib")
 # Prepare the plot using Matplotlib
 fig, ax = plt.subplots()  # Create a figure and axes
 ax.scatter(df['year'], df['per capita income (US$)'], color='g', marker='*')
